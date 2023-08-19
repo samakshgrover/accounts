@@ -9,7 +9,7 @@ export default (db) => {
         primaryKey: true,
         autoIncrement: true,
       },
-      username: {
+      name: {
         type: DataTypes.STRING,
         allowNull: false,
         unique: true,
@@ -31,7 +31,7 @@ export default (db) => {
         allowNull: false,
         defaultValue: false,
       },
-      createAt: {
+      createdAt: {
         type: DataTypes.DATE,
         allowNull: false,
         defaultValue: DataTypes.NOW,

@@ -1,5 +1,5 @@
 import { Sequelize } from "sequelize";
-import userModel from "./models/user.model.mjs";
+import userModel from "./user.model.mjs";
 
 const { PGUSER, PGHOST, PGPASSWORD, PGDATABASE } = process.env;
 
